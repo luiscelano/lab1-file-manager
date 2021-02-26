@@ -16,6 +16,7 @@ namespace lab1_file_manager
         }
         static void menu()
         {
+            //menu
             Console.WriteLine("EJERCICIO EN LABORATORIO");
             Console.WriteLine("\n");
             Console.WriteLine("\n");
