@@ -6,6 +6,10 @@ Sistema encargado de controlar archivos de una computadora local y posee las sig
 - Agregar información al archivo
 - Ver contenido del archivo
 
+**Menú principal**
+
+![menu](https://raw.githubusercontent.com/luiscelano/lab1-file-manager/main/assets/menu_principal.PNG)
+
 **Crear archivos**
 
 ![createfile](https://raw.githubusercontent.com/luiscelano/lab1-file-manager/main/assets/crear_archivo.PNG?token=ANXXWD2C2LC7S6VV6AZ5LALAHKVMI)
