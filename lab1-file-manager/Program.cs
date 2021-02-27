@@ -194,7 +194,7 @@ namespace lab1_file_manager
         static void ReadFileContent()
         {
             string path;
-            CenterText("ACTUALIZAR ARCHIVO");
+            CenterText("LISTAR INFORMACIÓN DEL ARCHIVO");
             Console.WriteLine("\n");
             Console.WriteLine("\n");
             CenterText("-------------------------------------");
