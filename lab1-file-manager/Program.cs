@@ -39,6 +39,9 @@ namespace lab1_file_manager
                 }
             } while (opt.Key != ConsoleKey.D6);
         }
+        /// <summary>
+        /// Evento para crear archivo
+        /// </summary>
         static void CreateFile()
         {
             string path;
@@ -66,6 +69,9 @@ namespace lab1_file_manager
                 Console.Clear();
             }
         }
+        /// <summary>
+        /// Evento para sobreescribir el nombre o la ruta del archivo
+        /// </summary>
         static void ReWriteFile()
         {
             CenterText("RENOMBRAR ARCHIVO");
@@ -110,6 +116,9 @@ namespace lab1_file_manager
                 Console.Clear();
             }
         }
+        /// <summary>
+        /// Evento para eliminar un archivo
+        /// </summary>
         static void DeleteFile()
         {
             string path;
@@ -150,6 +159,9 @@ namespace lab1_file_manager
                 Console.Clear();
             }
         }
+       /// <summary>
+       /// Evento para escribir sobre un archivo
+       /// </summary>
         static async void UpdateFile()
         {
             string path;
@@ -191,6 +203,9 @@ namespace lab1_file_manager
                 Console.Clear();
             }
         }
+        /// <summary>
+        /// Evento que obtiene el contenido de un archivo
+        /// </summary>
         static void ReadFileContent()
         {
             string path;
@@ -234,6 +249,9 @@ namespace lab1_file_manager
                 Console.Clear();
             }
         }
+        /// <summary>
+        /// Imprime el menú que contiene todas las opciones de la aplicación
+        /// </summary>
         static void Menu()
         {
             //menu
@@ -259,10 +277,18 @@ namespace lab1_file_manager
             CenterText("-------------------------------------");
 
         }
+        /// <summary>
+        /// Centra el texto al centro
+        /// </summary>
+        /// <param name="text"></param>
         static void CenterText(string text)
         {
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (text.Length / 2)) + "}",text));
         }
+        /// <summary>
+        /// Centra el texto al centro agregando un margen izquierdo de 0 
+        /// </summary>
+        /// <param name="text"></param>
         static void CenterLeftText(string text)
         {
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2)+text.Length-15) + "}", text));
