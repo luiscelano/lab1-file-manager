@@ -8,7 +8,7 @@ Sistema encargado de controlar archivos de una computadora local y posee las sig
 
 **Crear archivos**
 
-![createfile](https://raw.githubusercontent.com/luiscelano/lab1-file-manager/main/assets/crear_archivo.PNG?token=ANXXWDZZL5TPEJZWSGHFXWLAHKUDO)
+![createfile](https://raw.githubusercontent.com/luiscelano/lab1-file-manager/main/assets/crear_archivo.PNG?token=ANXXWD2C2LC7S6VV6AZ5LALAHKVMI)
 
 ![filecreated](https://raw.githubusercontent.com/luiscelano/lab1-file-manager/main/assets/archivo_creado.PNG?token=ANXXWD3TTTBDY6O572OUQBLAHKVCG)
 
